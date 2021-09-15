@@ -33,8 +33,8 @@ RUN apt update; apt install -y apt-utils; apt install -y \
   libunwind-dev; \
   apt clean
 
-ADD install_cmake3211.sh /script/
-RUN /script/install_cmake3211.sh
+ADD install_cmake3212.sh /script/
+RUN /script/install_cmake3212.sh
 
 ADD install_boost177.sh /script/
 RUN /script/install_boost177.sh
